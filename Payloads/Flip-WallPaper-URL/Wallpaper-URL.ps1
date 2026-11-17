@@ -12,7 +12,7 @@ Function Set-WallPaper {
 param (
     [parameter(Mandatory=$True)]
     # Provide path to image
-    [string]$Image,
+    [string]$Image,https://media.licdn.com/dms/image/v2/D4E03AQE6I1NcmQQTJA/profile-displayphoto-scale_400_400/B4EZ4W306_GYAg-/0/1778500195088?e=1796256000&v=beta&t=iF-9hNwHbdiU-cdrCYwv3zras_mv65fDWZW0vBLGW08
     # Provide wallpaper style that you would like applied
     [parameter(Mandatory=$False)]
     [ValidateSet('Fill', 'Fit', 'Stretch', 'Tile', 'Center', 'Span')]
